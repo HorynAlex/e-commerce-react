@@ -1,0 +1,427 @@
+.details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+.details .container {
+  display: flex;
+}
+.details .container .left {
+  width: 50%;
+  display: flex;
+  margin-right: 40px;
+}
+.details .container .left .sub_imgs {
+  margin-right: 14px;
+  max-width: 152px;
+  max-height: 167px;
+}
+.details .container .left .sub_imgs img {
+  border-radius: 20px;
+  max-width: 152px;
+  height: 100%;
+}
+.details .container .left .main_img {
+  display: flex;
+  width: 100%;
+  max-height: 530px;
+}
+.details .container .left .main_img img {
+  border-radius: 20px;
+  max-width: 550px;
+  height: 100%;
+}
+@media (max-width: 991px) {
+  .details .container .left .sub_imgs {
+    max-width: 200px;
+    width: 100%;
+    max-height: 100%;
+  }
+  .details .container .left .sub_imgs img {
+    max-width: 200px;
+    width: 100%;
+  }
+  .details .container .left .main_img {
+    display: flex;
+    width: 100%;
+    max-height: 630px;
+  }
+  .details .container .left .main_img img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+.details .container .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.details .container .right:last-child {
+  margin-right: 0;
+}
+.details .container .right .title {
+  font-size: 40px;
+  font-family: "IntegralCFBold";
+  margin-bottom: 14px;
+}
+.details .container .right .box {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.details .container .right .box .rating {
+  margin-bottom: 14px;
+  display: flex;
+}
+.details .container .right .box .rating .stars {
+  display: flex;
+  margin-right: 13px;
+}
+.details .container .right .box .rating .stars .star {
+  display: flex;
+}
+.details .container .right .box .rating p {
+  font-size: 14px;
+  color: #000;
+  font-family: "SatoshiRegular";
+}
+.details .container .right .box .rating p span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.details .container .right .box .price {
+  font-size: 32px;
+  font-family: "SatoshiBold";
+  margin-bottom: 20px;
+}
+.details .container .right .box .desc {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+}
+.details .container .right .box .colors {
+  display: flex;
+  margin-top: 16px;
+}
+.details .container .right .box .colors .color {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+.details .container .right .box .colors .color.active img {
+  display: flex;
+}
+.details .container .right .box .colors .color:last-child {
+  margin-right: 0;
+}
+.details .container .right .box .colors .color img {
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.details .container .right .box .sizes {
+  display: flex;
+}
+.details .container .right .box .sizes .size {
+  margin-right: 12px;
+  border-radius: 62px;
+  padding: 10px 20px;
+  background-color: #F0F0F0;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+  transition: all 0.3s ease-in-out;
+}
+.details .container .right .box .sizes .size:last-child {
+  margin-right: 0;
+}
+.details .container .right .box .sizes .size:hover {
+  background-color: #000;
+  color: #fff;
+}
+.details .container .right .box .sizes .size.active {
+  background-color: #000;
+  color: #fff;
+}
+.details .container .right .bying {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.details .container .right .bying .row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.details .container .right .bying .row:first-child {
+  max-width: 170px;
+  margin-right: 20px;
+}
+.details .container .right .bying .row button {
+  background: transparent;
+}
+.details .container .right .bying .row .quotes {
+  display: flex;
+  background-color: #F0F0F0;
+  padding: 16px 20px;
+  border-radius: 62px;
+  max-width: 170px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.details .container .right .bying .row .quotes .symbol {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.details .container .right .bying .row .quotes .numbers {
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+}
+.details .container .right .bying .row .add-cart {
+  padding: 16px 0;
+  width: 100%;
+  background-color: #000;
+  border-radius: 62px;
+}
+.details .container .right .bying .row .add-cart span {
+  font-family: "SatoshiRegular";
+  font-size: 16px;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .details .container {
+    flex-direction: column;
+  }
+  .details .container .left, .details .container .right {
+    width: 100%;
+  }
+  .details .container .left {
+    margin-bottom: 50px;
+    margin-right: 0;
+  }
+}
+
+.tabs {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 64px;
+}
+.tabs .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tabs .container .tabs_list {
+  width: 100%;
+  display: flex;
+}
+.tabs .container .tabs_list .tab_item {
+  width: 33.333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 24px;
+}
+.tabs .container .tabs_list .tab_item.active {
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.tabs .container .tabs_list .tab_item.active .name {
+  color: rgb(0, 0, 0);
+}
+.tabs .container .tabs_list .tab_item .name {
+  font-size: 20px;
+  font-family: "SatoshiRegular";
+  color: rgba(0, 0, 0, 0.6);
+}
+.tabs .container .details {
+  padding: 32px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.tabs .container .details .title {
+  font-size: 24px;
+  font-family: "SatoshiBold";
+  color: #000;
+}
+.tabs .container .details .title span {
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+  color: rgba(0, 0, 0, 0.6);
+}
+.tabs .container .details .filters select {
+  margin-right: 10px;
+  border: none;
+  background-color: #F0F0F0;
+  border-radius: 62px;
+  padding: 13px 20px;
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+}
+.tabs .container .details .filters .button-filter {
+  background-color: #000;
+  padding: 13px 30px;
+  border-radius: 62px;
+}
+.tabs .container .details .filters .button-filter span {
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+  color: #fff;
+}
+.tabs .container .box-container {
+  display: flex;
+  padding-bottom: 36.5px;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.tabs .container .box-container .box {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 32px;
+  justify-content: flex-start;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.tabs .container .box-container .box:last-child {
+  margin-right: 0;
+}
+.tabs .container .box-container .box .stars {
+  margin-bottom: 15px;
+  display: flex;
+}
+.tabs .container .box-container .box .stars .stars {
+  display: flex;
+  margin-right: 6.5px;
+}
+.tabs .container .box-container .box .stars p {
+  font-size: 14px;
+  color: #000;
+  font-family: "SatoshiRegular";
+}
+.tabs .container .box-container .box .stars p span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.tabs .container .box-container .box .author {
+  display: flex;
+  flex-direction: column;
+}
+.tabs .container .box-container .box .author .checked {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+.tabs .container .box-container .box .author .checked .name {
+  margin-right: 4px;
+  font-family: "SatoshiBold";
+}
+.tabs .container .box-container .box .author .desc {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-family: "SatoshiRegular";
+  margin-bottom: 24px;
+}
+.tabs .container .box-container .box .data-posted {
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+  color: rgba(0, 0, 0, 0.6);
+}
+.tabs .container .button {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  max-width: 230px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  border-radius: 62px;
+}
+.tabs .container .button span {
+  color: #000;
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+}
+
+.also_like {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 168px;
+}
+.also_like .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.also_like .container .title {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "IntegralCFBold";
+  margin-bottom: 55px;
+}
+.also_like .container .box-container {
+  display: flex;
+  width: 100%;
+}
+.also_like .container .box-container .box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.also_like .container .box-container .box:last-child {
+  margin-right: 0;
+}
+.also_like .container .box-container .box .img-box {
+  margin-bottom: 16px;
+}
+.also_like .container .box-container .box .img-box img {
+  border-radius: 20px;
+  max-width: 300px;
+  max-height: 300px;
+}
+.also_like .container .box-container .box .name {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.also_like .container .box-container .box .rating {
+  margin-bottom: 8px;
+  display: flex;
+}
+.also_like .container .box-container .box .rating .stars {
+  display: flex;
+  margin-right: 13px;
+}
+.also_like .container .box-container .box .rating p {
+  font-size: 14px;
+  color: #000;
+  font-family: "SatoshiRegular";
+}
+.also_like .container .box-container .box .rating p span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.also_like .container .box-container .box .price {
+  font-size: 24px;
+  font-family: "SatoshiBold";
+}/*# sourceMappingURL=ProductPage.css.map */

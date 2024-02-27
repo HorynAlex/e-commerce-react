@@ -1,0 +1,289 @@
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F2F0F1;
+  padding-top: 150px;
+}
+.main .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .container .left {
+  width: 50%;
+  margin-right: 55px;
+}
+.main .container .left .title {
+  font-size: 64px;
+  font-family: "IntegralCFBold";
+  line-height: 64px;
+  margin-bottom: 32px;
+}
+.main .container .left .desc {
+  font-size: 16px;
+  color: #000;
+  opacity: 0.6;
+  margin-bottom: 32px;
+  line-height: 22px;
+  font-family: "SatoshiRegular";
+}
+.main .container .left .button {
+  margin-bottom: 48px;
+  padding: 15px 0;
+  max-width: 210px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 62px;
+}
+.main .container .left .button span {
+  font-family: "SatoshiRegular";
+  font-size: 16px;
+  color: #fff;
+}
+.main .container .left .counter {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.main .container .left .counter .box {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.main .container .left .counter .box:first-child {
+  padding-left: 0;
+}
+.main .container .left .counter .box:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+.main .container .left .counter .box .number {
+  font-size: 40px;
+  font-family: "SatoshiBold";
+}
+.main .container .left .counter .box .desc {
+  font-size: 15px;
+  font-family: "SatoshiRegular";
+  line-height: 22px;
+}
+.main .container .right {
+  width: 50%;
+}
+.main .container .right .main-img {
+  display: flex;
+}
+@media (max-width: 1250px) {
+  .main .container {
+    flex-direction: column;
+  }
+  .main .container .left, .main .container .right {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.companies {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+  padding: 45px 0;
+}
+.companies .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clothes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+  padding-bottom: 80px;
+}
+.clothes .container {
+  display: flex;
+  flex-direction: column;
+}
+.clothes .container .arrivals, .clothes .container .selling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clothes .container .arrivals .title, .clothes .container .selling .title {
+  font-size: 48px;
+  font-family: "IntegralCFBold";
+  margin-bottom: 55px;
+  text-transform: uppercase;
+}
+.clothes .container .arrivals .box-container, .clothes .container .selling .box-container {
+  margin-bottom: 36px;
+  display: flex;
+}
+.clothes .container .arrivals .box-container .box, .clothes .container .selling .box-container .box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.clothes .container .arrivals .box-container .box:last-child, .clothes .container .selling .box-container .box:last-child {
+  margin-right: 0;
+}
+.clothes .container .arrivals .box-container .box .img-box, .clothes .container .selling .box-container .box .img-box {
+  margin-bottom: 16px;
+}
+.clothes .container .arrivals .box-container .box .img-box img, .clothes .container .selling .box-container .box .img-box img {
+  border-radius: 20px;
+  max-width: 300px;
+  max-height: 300px;
+}
+.clothes .container .arrivals .box-container .box .name, .clothes .container .selling .box-container .box .name {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.clothes .container .arrivals .box-container .box .rating, .clothes .container .selling .box-container .box .rating {
+  margin-bottom: 8px;
+  display: flex;
+}
+.clothes .container .arrivals .box-container .box .rating .stars, .clothes .container .selling .box-container .box .rating .stars {
+  display: flex;
+  margin-right: 13px;
+}
+.clothes .container .arrivals .box-container .box .rating p, .clothes .container .selling .box-container .box .rating p {
+  font-size: 14px;
+  color: #000;
+  font-family: "SatoshiRegular";
+}
+.clothes .container .arrivals .box-container .box .rating p span, .clothes .container .selling .box-container .box .rating p span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.clothes .container .arrivals .box-container .box .price, .clothes .container .selling .box-container .box .price {
+  font-size: 24px;
+  font-family: "SatoshiBold";
+}
+.clothes .container .arrivals .view_all, .clothes .container .selling .view_all {
+  max-width: 218px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: transparent;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 62px;
+}
+.clothes .container .arrivals .view_all span, .clothes .container .selling .view_all span {
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+}
+.clothes .container .arrivals {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 62px;
+}
+.clothes .container .selling {
+  margin-top: 64px;
+}
+
+.style {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.style .container {
+  background-color: #F0F0F0;
+  border-radius: 40px;
+  padding: 70px 64px;
+  text-align: center;
+}
+.style .container .title {
+  font-size: 48px;
+  font-family: "IntegralCFBold";
+  margin-bottom: 64px;
+}
+.style .container .colums .col {
+  display: flex;
+}
+.style .container .colums .col:first-child {
+  margin-bottom: 20px;
+}
+.style .container .colums .col .row {
+  margin-right: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  background-color: #fff;
+}
+.style .container .colums .col .row .img-box {
+  display: flex;
+}
+.style .container .colums .col .row:last-child {
+  margin-right: 0;
+}
+.style .container .colums .col .row .text {
+  margin-top: 25px;
+  margin-left: 35px;
+  font-size: 36px;
+  font-family: "SatoshiBold";
+}
+
+.customers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding-bottom: 170px;
+}
+.customers .container .title {
+  font-size: 48px;
+  font-family: "IntegralCFBold";
+  margin-bottom: 40px;
+}
+.customers .container .slider .box {
+  padding: 28px 32px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+.customers .container .slider .box .stars {
+  display: flex;
+  margin-bottom: 15px;
+}
+.customers .container .slider .box .author {
+  display: flex;
+  flex-direction: column;
+}
+.customers .container .slider .box .author .checked {
+  display: flex;
+}
+.customers .container .slider .box .author .checked .name {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  margin-bottom: 12px;
+}
+.customers .container .slider .box .author .desc {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+}/*# sourceMappingURL=Home.css.map */

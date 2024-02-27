@@ -1,0 +1,302 @@
+.products {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding-top: 150px;
+  padding-bottom: 170px;
+}
+.products .container {
+  display: flex;
+}
+.products .container .filter {
+  margin-right: 20px;
+  padding: 20px 24px;
+  width: 24%;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+.products .container .filter .title {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 24px;
+}
+.products .container .filter .shirts {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.products .container .filter .shirts .shirt {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.products .container .filter .shirts .shirt:hover span {
+  color: rgb(0, 0, 0);
+}
+.products .container .filter .shirts .shirt.active span {
+  color: rgb(0, 0, 0);
+}
+.products .container .filter .shirts .shirt:last-child {
+  margin-bottom: 0;
+}
+.products .container .filter .shirts .shirt span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.products .container .filter .input-range {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
+.products .container .filter .input-range .title {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  padding-bottom: 20px;
+  border-bottom: none;
+}
+.products .container .filter .color-selector {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
+.products .container .filter .color-selector .title {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  border-bottom: none;
+}
+.products .container .filter .color-selector .color-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products .container .filter .color-selector .color-box .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products .container .filter .color-selector .color-box .row .color {
+  margin-top: 16px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin-right: 15.5px;
+  cursor: pointer;
+  background-color: #c9c9c9;
+  display: flex;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  font-family: "SatoshiRegular";
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(2) {
+  background-color: #00C12B;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(3) {
+  background-color: #F50606;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(4) {
+  background-color: #F5DD06;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(5) {
+  background-color: #F57906;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(6) {
+  background-color: #06CAF5;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(7) {
+  background-color: #063AF5;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(8) {
+  background-color: #7D06F5;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(9) {
+  background-color: #F506A4;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(10) {
+  background-color: #F0F0F0;
+}
+.products .container .filter .color-selector .color-box .row .color:nth-child(11) {
+  background-color: #000000;
+}
+.products .container .filter .color-selector .color-box .row .color:hover {
+  border: 2px solid rgba(0, 0, 0, 0.6);
+}
+.products .container .filter .color-selector .color-box .row .color.active {
+  border: 2px solid rgba(0, 0, 0, 0.6);
+}
+.products .container .filter .color-selector .color-box .row .color:last-child {
+  margin-right: 0;
+}
+.products .container .filter .sizes {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 24px;
+  margin-bottom: 24px;
+}
+.products .container .filter .sizes .title {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  border: none;
+}
+.products .container .filter .sizes .size-selector .size {
+  margin-bottom: 8px;
+  margin-right: 8px;
+  border-radius: 62px;
+  padding: 10px 20px;
+  background-color: #F0F0F0;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-family: "SatoshiRegular";
+  transition: all 0.3s ease-in-out;
+}
+.products .container .filter .sizes .size-selector .size:hover {
+  background-color: #000;
+  color: #fff;
+}
+.products .container .filter .sizes .size-selector .size.active {
+  background-color: #000;
+  color: #fff;
+}
+.products .container .filter .dress-style {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 24px;
+  margin-bottom: 26px;
+}
+.products .container .filter .dress-style .title {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  border: none;
+}
+.products .container .filter .dress-style .dreses {
+  display: flex;
+  flex-direction: column;
+}
+.products .container .filter .dress-style .dreses .dres {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+  margin-bottom: 20px;
+}
+.products .container .filter .dress-style .dreses .dres:last-child {
+  margin-bottom: 0;
+}
+.products .container .filter .dress-style .dreses .dres span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.products .container .filter .filter-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 62px;
+  color: #fff;
+  padding: 16px 0;
+  width: 100%;
+}
+.products .container .filter .filter-btn span {
+  font-size: 14px;
+  font-family: "SatoshiRegular";
+  text-transform: capitalize;
+}
+.products .container .main_products {
+  width: 76%;
+}
+.products .container .main_products .top {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.products .container .main_products .top .title {
+  font-size: 32px;
+  font-family: "SatoshiBold";
+}
+.products .container .main_products .top .selectors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .container .main_products .top .selectors p {
+  font-size: 16px;
+  margin-right: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "SatoshiRegular";
+}
+.products .container .main_products .top .selectors .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .container .main_products .top .selectors .box span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "SatoshiRegular";
+}
+.products .container .main_products .top .selectors .box select {
+  font-size: 16px;
+  font-family: "SatoshiBold";
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.products .container .main_products .top .selectors .box select option {
+  border-radius: 10px;
+}
+.products .container .main_products .products_items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px 20px;
+}
+.products .container .main_products .products_items .product {
+  display: flex;
+  flex-direction: column;
+}
+.products .container .main_products .products_items .product:last-child {
+  margin-right: 0;
+}
+.products .container .main_products .products_items .product .img-box {
+  margin-bottom: 16px;
+}
+.products .container .main_products .products_items .product .img-box img {
+  border-radius: 20px;
+  max-width: 300px;
+  max-height: 300px;
+}
+.products .container .main_products .products_items .product .name {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.products .container .main_products .products_items .product .rating {
+  margin-bottom: 8px;
+  display: flex;
+}
+.products .container .main_products .products_items .product .rating .star {
+  display: flex !important;
+  margin-right: 13px;
+}
+.products .container .main_products .products_items .product .rating p {
+  font-size: 14px;
+  color: #000;
+  font-family: "SatoshiRegular";
+}
+.products .container .main_products .products_items .product .rating p span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.products .container .main_products .products_items .product .price {
+  font-size: 24px;
+  font-family: "SatoshiBold";
+}/*# sourceMappingURL=Products.css.map */

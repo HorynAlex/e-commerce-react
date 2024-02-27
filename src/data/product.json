@@ -1,0 +1,1051 @@
+[
+    {
+        "id": 1,
+        "main_img": "../Products/product-1.png",
+        "sub_img":[
+            "../Products/product-1.png",
+            "../Products/product-4.png",
+            "../Products/product-12.png"
+        ],
+        "colors":[
+            "#000",
+            "#f0f0f0",
+            "№4F4631"
+        ],
+        "sizes":[
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "title": "T-shirt  with Tape Details",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 120,
+        "discount": 48,
+        "color_selected": "#FFFFFF",
+        "style_selected": "Casual",
+        "size_selected":[
+            "Small",
+            "Medium",
+            "Large"
+        ],
+        "type": "T_shirts"
+    },
+
+    {
+        "id": 2,
+        "main_img": "../Products/product-13.png",
+        "sub_img":[
+            "../Products/product-13.png",
+            "../Products/product-14.png",
+            "../Products/product-15.png"
+        ],
+        "colors":[
+            "#4F4631",
+            "#314F4A",
+            "#31344F"
+        ],
+        "sizes":[
+            "Small",
+            "Medium"
+        ],
+        "title": "One Life Graphic T-shirt",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"4.5",
+        "full_rate": "5",
+        "price": 260,
+        "discount": 88,
+        "color_selected": "#F5DD06",
+        "style_selected": "gym",
+        "size_selected": [
+            "Small",
+            "Medium"
+        ],
+        "type": "T_shirts"
+    },
+
+    {
+        "id": 3,
+        "main_img": "../Products/product-2.png",
+        "sub_img":[
+            "../Products/product-2.png",
+            "../Products/product-8.png"
+        ],
+        "colors":[
+            "#4F4631",
+            "#314F4A",
+            "#31344F"
+        ],
+        "sizes":[
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "title": "Skinny Fit Jeans",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"4.5",
+        "full_rate": "5",
+        "price": 240,
+        "discount": 38,
+        "color_selected": "#000000",
+        "style_selected": "party",
+        "size_selected": [
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "type": "Jeans"
+    },
+
+    {
+        "id": 4,
+        "main_img": "../Products/product-3.png",
+        "sub_img":[
+            "../Products/product-3.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#F50606",
+            "#00C12B"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Checkered Shirt",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"4.5",
+        "full_rate": "5",
+        "price": 180,
+        "discount": 33,
+        "color_selected": "#063AF5",
+        "style_selected": "party",
+        "size_selected":[
+            "Large",
+            "X-Large"
+        ],
+        "type": "shirts"
+    },
+
+    {
+        "id": 5,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+    
+    {
+        "id": 6,
+        "main_img": "../Products/product-8.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 7,
+        "main_img": "../Products/product-9.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 8,
+        "main_img": "../Products/product-10.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 9,
+        "main_img": "../Products/product-11.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 10,
+        "main_img": "../Products/product-12.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 11,
+        "main_img": "../Products/product-13.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 12,
+        "main_img": "../Products/purple-hoody.jpg",
+        "sub_img":[
+            "../Products/purple-hoody.jpg",
+            "../Products/purple-hoody-1.jpg",
+            "../Products/purple-hoody-2.jpg"
+        ],
+        "colors":[
+            "#7D06F5"
+        ],
+        "sizes":[
+            "Large",
+            "Medium"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 90,
+        "discount": 20,
+        "color_selected": "#7D06F5",
+        "style_selected": "casual",
+        "size_selected":"Large",
+        "type": "hoody"
+    },
+
+    {
+        "id": 13,
+        "main_img": "../Products/white-hoody.jpg",
+        "sub_img":[
+            "../Products/white-hoody.jpg",
+            "../Products/hoody-white.jpg",
+            "../Products/black-hoody.jpg"
+        ],
+        "colors":[
+            "#f0f0f0",
+            "#000000"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 120,
+        "discount": 20,
+        "color_selected": "#FFFFFF",
+        "style_selected": "casual",
+        "size_selected":"Large",
+        "type": "hoody"
+    },
+
+    {
+        "id": 14,
+        "main_img": "../Products/pink-hoody.jpg",
+        "sub_img":[
+            "../Products/pink-hoody.jpg",
+            "../Products/pink-hoody-1.jpg"
+        ],
+        "colors":[
+            "#F506A4"
+        ],
+        "sizes":[
+            "Medium",
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"4.5",
+        "full_rate": "5",
+        "price": 60,
+        "discount": 15,
+        "color_selected": "#F506A4",
+        "style_selected": "casual",
+        "size_selected":"Large",
+        "type": "hoody"
+    },
+
+    {
+        "id": 15,
+        "main_img": "../Products/green-hoody-1.jpg",
+        "sub_img":[
+            "../Products/green-hoody-1.jpg",
+            "../Products/green-hoody-2.jpg"
+        ],
+        "colors":[
+            "#00C12B"
+        ],
+        "sizes":[
+            "Medium",
+            "Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 100,
+        "discount": 20,
+        "color_selected": "#00C12B",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "hoody"
+    },
+
+    {
+        "id": 16,
+        "main_img": "../Products/black-hoody-1.jpg",
+        "sub_img":[
+            "../Products/black-hoody-1.jpg",
+            "../Products/black-hoody-2.jpg",
+            "../Products/black-hoody.jpg"            
+        ],
+        "colors":[
+            "#00000"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large",
+            "XX-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png"
+        ],
+        "half_rate":"5",
+        "full_rate": "5",
+        "price": 170,
+        "discount": 50,
+        "color_selected": "#000000",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "hoody"
+    },
+
+    {
+        "id": 17,
+        "main_img": "../Products/orange-hoody.jpg",
+        "sub_img":[
+            "../Products/orange-hoody.jpg",
+            "../Products/orange-hoody-4.jpg"
+        ],
+        "colors":[
+            "#F57906"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large",
+            "XX-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"4.5",
+        "full_rate": "5",
+        "price": 120,
+        "discount": 35,
+        "color_selected": "#F57906",
+        "style_selected": "casual",
+        "size_selected":"Large",
+        "type": "hoody"
+    },
+
+    {
+        "id": 18,
+        "main_img": "../Products/red-hoody.jpg",
+        "sub_img":[
+            "../Products/red-hoody.jpg",
+            "../Products/rea-hoody-1.jpg"
+        ],
+        "colors":[
+            "#F50606"
+        ],
+        "sizes":[
+            "Medium",
+            "Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 67,
+        "discount": 24,
+        "color_selected": "#F50606",
+        "style_selected": "casual",
+        "size_selected":"Large",
+        "type": "hoody"
+    },
+
+    {
+        "id": 19,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 20,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 21,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 22,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 23,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 24,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 25,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 26,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 27,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 28,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 29,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 30,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    },
+
+    {
+        "id": 31,
+        "main_img": "../Products/product-7.png",
+        "sub_img":[
+            "../Products/product-7.png",
+            "../Products/product-5.png"
+        ],
+        "colors":[
+            "#06CAF5",
+            "#063AF5"
+        ],
+        "sizes":[
+            "Large",
+            "X-Large"
+        ],
+        "title": "Loose Fit Bermuda Shorts",
+        "desc":"This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+        "rates":[
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/Star.png",
+            "../Products/half-star.png"
+        ],
+        "half_rate":"3.5",
+        "full_rate": "5",
+        "price": 80,
+        "discount": 20,
+        "color_selected": "#06CAF5",
+        "style_selected": "party",
+        "size_selected":"Large",
+        "type": "shorts"
+    }
+]

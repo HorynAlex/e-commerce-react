@@ -1,0 +1,222 @@
+.cart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 170px;
+}
+.cart .container {
+  display: flex;
+  flex-direction: column;
+}
+.cart .container .title {
+  font-size: 40px;
+  font-family: "IntegralCFBold";
+  margin-bottom: 24px;
+}
+.cart .container .box-container {
+  width: 100%;
+  display: flex;
+}
+.cart .container .box-container .left {
+  margin-right: 20px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 60%;
+  height: 100%;
+}
+.cart .container .box-container .left .box {
+  padding: 20px 24px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cart .container .box-container .left .box:first-child {
+  border-top: none;
+}
+.cart .container .box-container .left .box .sub_left {
+  display: flex;
+}
+.cart .container .box-container .left .box .sub_left .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cart .container .box-container .left .box .sub_left .info .size, .cart .container .box-container .left .box .sub_left .info .color {
+  font-size: 14px;
+  color: #000;
+  font-family: "SatoshiRegular";
+}
+.cart .container .box-container .left .box .sub_left .info .size span, .cart .container .box-container .left .box .sub_left .info .color span {
+  color: rgba(0, 0, 0, 0.6);
+}
+.cart .container .box-container .left .box .sub_left .info .size {
+  margin-bottom: 4px;
+}
+.cart .container .box-container .left .box .sub_left .info .price {
+  margin-top: 15px;
+  font-size: 24px;
+  font-family: "SatoshiBold";
+}
+.cart .container .box-container .left .box .sub_left .info .name {
+  font-size: 20px;
+  font-family: "SatoshiBold";
+  color: #000;
+  margin-bottom: 4px;
+}
+.cart .container .box-container .left .box .sub_left .img-box {
+  margin-right: 16px;
+}
+.cart .container .box-container .left .box .sub_left .img-box img {
+  max-width: 125px;
+  max-height: 125px;
+  border-radius: 10px;
+}
+.cart .container .box-container .left .box .sub_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.cart .container .box-container .left .box .sub_right .bying {
+  display: flex;
+  width: 100%;
+}
+.cart .container .box-container .left .box .sub_right .bying .quotes {
+  display: flex;
+  background-color: #F0F0F0;
+  padding: 16px 20px;
+  border-radius: 62px;
+  max-width: 125px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart .container .box-container .left .box .sub_right .bying .quotes .symbol {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.cart .container .box-container .left .box .sub_right .bying .quotes .numbers {
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+  margin: 0 20px;
+}
+.cart .container .box-container .right {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 40%;
+  padding: 20px 24px;
+}
+.cart .container .box-container .right .order {
+  display: flex;
+  flex-direction: column;
+}
+.cart .container .box-container .right .order .title, .cart .container .box-container .right .order .top, .cart .container .box-container .right .order .bottom {
+  margin-bottom: 24px;
+}
+.cart .container .box-container .right .order .title {
+  font-size: 24px;
+  font-family: "SatoshiBold";
+}
+.cart .container .box-container .right .order .top {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cart .container .box-container .right .order .top .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.cart .container .box-container .right .order .top .row:nth-child(2) .price {
+  color: #FF3333;
+}
+.cart .container .box-container .right .order .top .row:last-child {
+  margin-bottom: 0;
+}
+.cart .container .box-container .right .order .top .row .title {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "SatoshiRegular";
+}
+.cart .container .box-container .right .order .top .row .price {
+  font-size: 20px;
+  color: #000;
+  font-family: "SatoshiBold";
+}
+.cart .container .box-container .right .order .bottom .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.cart .container .box-container .right .order .bottom .row .title {
+  color: #000;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "SatoshiRegular";
+}
+.cart .container .box-container .right .order .bottom .row .price {
+  font-size: 20px;
+  color: #000;
+  font-family: "SatoshiBold";
+}
+.cart .container .box-container .right .order .bottom .promo {
+  display: flex;
+  width: 100%;
+}
+.cart .container .box-container .right .order .bottom .promo .input-box {
+  margin-right: 12px;
+  width: 100%;
+  position: relative;
+}
+.cart .container .box-container .right .order .bottom .promo .input-box svg {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.cart .container .box-container .right .order .bottom .promo .input-box input {
+  width: 100%;
+  padding: 13px 0 13px 52px;
+  background-color: #F0F0F0;
+  border-radius: 62px;
+  border: none;
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+}
+.cart .container .box-container .right .order .bottom .promo .button {
+  background-color: #000;
+  padding: 13px 38.5px;
+  border-radius: 62px;
+}
+.cart .container .box-container .right .order .bottom .promo .button span {
+  color: #fff;
+  font-size: 16px;
+  font-family: "SatoshiRegular";
+}
+.cart .container .box-container .right .order .checkout {
+  width: 100%;
+  background-color: #000;
+  border-radius: 62px;
+  padding: 19px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart .container .box-container .right .order .checkout span {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 12px;
+}/*# sourceMappingURL=Cart.css.map */

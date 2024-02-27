@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "SatoshiRegular";
+  src: url("../../Assets/fonts/Satoshi-Regular.woff2") format("woff2"), url("../../Assets/fonts/Satoshi-Regular.woff") format("woff");
+  /* Add additional formats if necessary */
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SatoshiBold";
+  src: url("../../Assets/fonts/Satoshi-Bold.woff2") format("woff2"), url("../../Assets/fonts/Satoshi-Bold.woff") format("woff");
+  /* Add additional formats if necessary */
+  font-weight: 700;
+}
+@font-face {
+  font-family: "IntegralCFBold";
+  src: url("../../Assets/fonts/IntegralCF-Bold.woff2") format("woff2"), url("../../Assets/fonts/IntegralCF-Bold.woff") format("woff");
+  /* Add additional formats if necessary */
+  font-weight: 700;
+}/*# sourceMappingURL=Fonts.css.map */

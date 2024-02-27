@@ -1,0 +1,277 @@
+.cart{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 170px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+
+        .title{
+            font-size: 40px;
+            font-family: 'IntegralCFBold';
+            margin-bottom: 24px;
+        }
+
+        .box-container{
+            width: 100%;
+            display: flex;
+
+            .left{
+                margin-right: 20px;
+
+                background-color: #fff;
+                border: 1px solid rgba(0,0,0,.1);
+                border-radius: 20px;
+
+                width: 60%;
+                height: 100%;
+
+                .box{
+                    padding: 20px 24px;
+                    width: 100%;
+                    justify-content: space-between;
+                    display: flex;
+                    border-top: 1px solid rgba(0,0,0,.1);
+
+                    &:first-child{
+                        border-top: none;
+                    }
+                    
+                    .sub_left{
+                        display: flex;
+
+                        .info{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+
+                            .size,.color{
+                                font-size: 14px;
+                                color: #000;
+                                font-family: 'SatoshiRegular';
+
+                                span{
+                                    color: rgba(0,0,0,.6);
+                                }
+                            }
+
+                            .size{
+                                margin-bottom: 4px;
+                            }
+
+                            .price{
+                                margin-top: 15px;
+                                font-size: 24px;
+                                font-family: 'SatoshiBold';
+                            }
+
+                            .name{
+                                font-size: 20px;
+                                font-family: 'SatoshiBold';
+                                color: #000;
+                                margin-bottom: 4px;
+                            }
+                        }
+
+                        .img-box{
+                            margin-right: 16px;
+                            img{
+                                max-width: 125px;
+                                max-height: 125px;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+
+                    .sub_right{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        justify-content: space-between;
+
+                        .delete{
+
+                        }
+
+                        .bying{
+                            display: flex;
+                            width: 100%;
+            
+                            .quotes{
+                                display: flex;
+                                background-color: #F0F0F0;
+                                padding: 16px 20px;
+                                border-radius: 62px;
+                                max-width: 125px;
+                                width: 100%;
+                                justify-content: space-between;
+                                align-items: center;
+        
+                                .symbol{
+                                font-size: 20px;
+                                display: flex;
+                                align-items: center;
+                                }
+            
+                                .numbers{
+                                    font-size: 16px;
+                                    font-family: 'SatoshiRegular';
+                                    margin: 0 20px;
+                                }
+                            
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right{
+                background-color: #fff;
+                border: 1px solid rgba(0,0,0,.1);
+                border-radius: 20px;
+                width: 40%;
+                padding: 20px 24px;
+
+                .order{
+                    display: flex;
+                    flex-direction: column;
+
+                    .title,.top,.bottom{
+                        margin-bottom: 24px;
+                    }
+
+                    .title{
+                        font-size: 24px;
+                        font-family: 'SatoshiBold';
+                    }
+
+                    .top{
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid rgba(0,0,0,.1);
+                        .row{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 100%;
+                            margin-bottom: 20px;
+
+                            &:nth-child(2){
+                                .price{
+                                    color: #FF3333;
+                                }
+                            }
+                            
+
+                            &:last-child{
+                                margin-bottom: 0;
+                            }
+
+                            .title{
+                                color: rgba(0,0,0,.6);
+                                font-size: 20px;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                                font-family: 'SatoshiRegular';
+                                
+                            }
+
+                            .price{
+                                font-size: 20px;
+                                color: #000;
+                                font-family: 'SatoshiBold';
+                            }
+
+                        }
+                    }
+
+                    .bottom{
+                        .row{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-bottom: 24px;
+
+                            .title{
+                                color: #000;
+                                font-size: 20px;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                                font-family: 'SatoshiRegular';
+                                
+                            }
+
+                            .price{
+                                font-size: 20px;
+                                color: #000;
+                                font-family: 'SatoshiBold';
+                            }
+                        }
+
+                        .promo{
+                            display: flex;
+                            width: 100%;
+
+                            .input-box{
+                                margin-right: 12px;
+                                width: 100%;
+                                position: relative;
+
+                                svg{
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 10%;
+                                    transform: translate(-50%,-50%);
+                                }
+
+                                input{
+                                    width: 100%;
+                                    padding: 13px 0 13px 52px;
+                                    background-color: #F0F0F0;
+                                    border-radius: 62px;
+                                    border: none;
+                                    font-size: 16px;
+                                    font-family: 'SatoshiRegular';
+                                }
+                            }
+
+                            .button{
+                                background-color: #000;
+                                padding: 13px 38.5px;
+                                border-radius: 62px;
+
+                                span{
+                                    color: #fff;
+                                    font-size: 16px;
+                                    font-family: 'SatoshiRegular';
+                                }
+                            }
+                        }
+                    }
+
+                    .checkout{
+                        width: 100%;
+                        background-color: #000;
+                        border-radius: 62px;
+                        padding: 19px 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        span{
+                            font-size: 16px;
+                            color: #fff;
+                            margin-right: 12px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
