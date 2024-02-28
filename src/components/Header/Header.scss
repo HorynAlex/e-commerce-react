@@ -233,8 +233,26 @@
             }
 
             .box{
+                display: flex;
                 .shopping-cart{
                     margin-right: 16px;
+                    position: relative;
+
+                    .counter{
+                        position: absolute;
+                        top: -50%;
+                        right: -100%;
+                        transform: translate(-50%, -50%);
+                        width: 24px;
+                        height: 24px;
+                        border-radius: 50%;
+                        background-color: #242424;
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: 'SatoshiRegular';
+                    }
                 }
             }
         }
@@ -253,7 +271,7 @@
 
                 .mobile{
                     display: flex;
-                    mr30
+                    margin-right: 30px;
     
                     .burger{
                         cursor: pointer;

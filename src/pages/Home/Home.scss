@@ -24,6 +24,20 @@
                 margin-bottom: 32px;
             }
 
+            @media (max-width:768px) {
+                .title{
+                    font-size: 52px;
+                    line-height: 52px;
+                }
+            }
+
+            @media (max-width:556px) {
+                .title{
+                    font-size: 36px;
+                    line-height: 36px;
+                }
+            }
+
             .desc{
                 font-size: 16px;
                 color: #000;
@@ -117,6 +131,20 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        .brand{
+            margin-right: 34px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+
+    @media (max-width:768px) {
+        .container{
+            
+        }
     }
 }
 
@@ -201,6 +229,25 @@
                 }
             }
 
+            @media (max-width:886px) {
+                .title{
+                    font-size: 42px;
+                    margin-bottom: 32px;
+                }
+                .box-container{
+                    display: grid;
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-columns: 1fr 1fr;
+                    gap: 25px;
+                }
+            }
+
+            @media (max-width:556px) {
+                .title{
+                    font-size: 32px;
+                }
+            }
+
             .view_all{
                 max-width: 218px;
                 width: 100%;
@@ -280,6 +327,37 @@
                     }
 
                 }
+            }
+
+            @media (max-width:910px) {
+                .col{
+                    flex-direction: column;
+                    .row{
+                        margin-right: 0;
+                        justify-content: space-between;
+
+                        .img-box{
+                            img{
+                                height: 181px;
+                            }
+                        }
+
+                        &:first-child{
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width:910px) {
+        .container{
+            padding: 35px 30px;
+
+            .title{
+                font-size: 38px;
+                margin-bottom: 36px;
             }
         }
     }

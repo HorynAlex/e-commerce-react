@@ -203,8 +203,27 @@
 .header .header_bottom .container .search-box .dataResult .cover-box .box .dataItem .info .rating .stars .star {
   display: flex;
 }
+.header .header_bottom .container .box {
+  display: flex;
+}
 .header .header_bottom .container .box .shopping-cart {
   margin-right: 16px;
+  position: relative;
+}
+.header .header_bottom .container .box .shopping-cart .counter {
+  position: absolute;
+  top: -50%;
+  right: -100%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #242424;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SatoshiRegular";
 }
 @media (max-width: 991px) {
   .header .header_bottom .container {
@@ -218,8 +237,9 @@
   }
   .header .header_bottom .container .mobile {
     display: flex;
+    margin-right: 30px;
   }
-  .header .header_bottom .container .mobile mr30 .burger {
+  .header .header_bottom .container .mobile .burger {
     cursor: pointer;
     display: flex;
     height: 16px;
@@ -228,7 +248,7 @@
     position: relative;
     width: 18px;
   }
-  .header .header_bottom .container .mobile mr30 .burger span {
+  .header .header_bottom .container .mobile .burger span {
     position: absolute;
     left: 0;
     width: 100%;
@@ -236,23 +256,23 @@
     background-color: #232233;
     transition: all 0.4s ease;
   }
-  .header .header_bottom .container .mobile mr30 .burger span:nth-child(1) {
+  .header .header_bottom .container .mobile .burger span:nth-child(1) {
     top: 0;
   }
-  .header .header_bottom .container .mobile mr30 .burger span:nth-child(2) {
+  .header .header_bottom .container .mobile .burger span:nth-child(2) {
     top: 50%;
     transform: translateY(-50%);
   }
-  .header .header_bottom .container .mobile mr30 .burger span:nth-child(3) {
+  .header .header_bottom .container .mobile .burger span:nth-child(3) {
     bottom: 0;
   }
-  .header .header_bottom .container .mobile mr30 .burger.active span:nth-child(1) {
+  .header .header_bottom .container .mobile .burger.active span:nth-child(1) {
     transform: rotate(-45deg) translate(-4px, 5px);
   }
-  .header .header_bottom .container .mobile mr30 .burger.active span:nth-child(2) {
+  .header .header_bottom .container .mobile .burger.active span:nth-child(2) {
     transform: translate(-100%, -50%);
   }
-  .header .header_bottom .container .mobile mr30 .burger.active span:nth-child(3) {
+  .header .header_bottom .container .mobile .burger.active span:nth-child(3) {
     transform: rotate(45deg) translate(-4.5px, -5px);
   }
   .header .header_bottom .container .mobile .navbar-mobile {

@@ -7,9 +7,14 @@ import product from '../../data/product.json'
 import ListStars from '../../components/Stars/ListStars'
 import { Link } from 'react-router-dom'
 import Filters from '../../components/Filters'
+import {useCartContext} from '../../context/CartContext';
 
 const Products = () => {
   const [items, setItems] = useState(product)
+  const { addCart} = useCartContext();
+
+  //destructure product
+  const {title, desc, main_img, sub_img, sizes, price, colors} = product
 
   const [filters, setFilters] = useState({
     //Отже, цей стан filters має за мету зберігати вибрані значення для різних фільтрів, таких як тип, колір, стиль і розмір. Ці значення можуть використовуватися в компоненті для фільтрації відображуваних продуктів відповідно до вибору користувача.
@@ -80,19 +85,26 @@ const Products = () => {
             <div className="products_items">
               {
                 filteredProducts.map((prod) => (
-                  <Link to={`/products/${prod.id}`}>
+                  
                     <div key={prod.id} className="product">
-                      <div className="img-box">
-                        <img src={prod.main_img} alt="" />
-                      </div>
+                      <Link to={`/products/${prod.id}`}>
+                        <div className="img-box">
+                          <img src={prod.main_img} alt="" />
+                        </div>
+                      </Link>
                       <h3 className="name">{prod.title}</h3>
                       <div className="rating">
                         <ListStars prod={prod}></ListStars>
                         <p>{prod.half_rate}/<span>5</span></p>
                       </div>
-                      <h3 className="price">${prod.price}</h3>
+                      <div className="bottom">
+                        <h3 className="price">${prod.price}</h3>
+                        <button className="add-cart" onClick={() => addCart(prod, prod.id)}>
+                          <span>Add to Cart</span>
+                        </button>
+                      </div>
                     </div>
-                  </Link>
+                  
                 ))
               }
             </div>
